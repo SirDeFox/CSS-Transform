@@ -369,13 +369,8 @@ body {
 
 /* Media */
 @media (max-width:  500px) {
-	.dark-theme .element__wrapper2d,
-	.dark-theme .element__wrapper3d {
-		margin-left: 0px;
-	}
-
-	.light-theme .element__wrapper2d,
-	.light-theme .element__wrapper3d {
+	.element__wrapper2d,
+	.element__wrapper3d {
 		margin-left: 0px;
 	}
 
