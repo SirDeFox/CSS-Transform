@@ -120,7 +120,7 @@ body {
 
 .element__text p span a:hover {
 	color: #cf8870;
-	border-bottom: 2px solid #cf8870;;
+	border-bottom: 2px solid #cf8870;
 }
 
 .element__text ul li:first-child {
@@ -352,7 +352,6 @@ body {
 .footer {
 	background-color: #1b1b1b;
 	max-height: 66px;
-	
 }
 
 .footer__block {
@@ -441,10 +440,12 @@ body {
 /* Theme  */
 .light-theme {
 	background-color: #fff;
+	transition: 300ms;
 }
 
 .dark-theme {
 	background-color: #151515;
+	transition: 300ms;
 }
 
 .theme-button {
@@ -497,11 +498,9 @@ body {
 .light-theme .element__wrapper3d {
 	width: 170px;
 	height: 170px;
-	margin: 30px 0 40px 30px;
 	background-color: rgba(143, 138, 138, 0.3); 
-	perspective-origin: center;
-	perspective: 400px;
 }
+
 .light-theme .element__text {
 	color: #000;
 }
